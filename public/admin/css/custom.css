@@ -1,0 +1,25 @@
+
+
+.jumbotron {
+	margin-top:-20px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+.rowcontent{
+	min-height:400px;
+}
+@media only screen and (max-width: 500px) {
+    .container {
+        margin-left:10px;
+		margin-right:10px;
+    }
+	.col-md-1{
+		margin-top:10px;
+		
+	}
+}
+.adminbutton
+{
+	text-align:left;
+	
+}

@@ -1,0 +1,54 @@
+-- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
+--
+-- Host: 204.11.58.156    Database: arkive_homestead
+-- ------------------------------------------------------
+-- Server version	5.5.44-37.3-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `news_events`
+--
+
+DROP TABLE IF EXISTS `news_events`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `news_events` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(45) DEFAULT NULL,
+  `image` varchar(45) DEFAULT NULL,
+  `text` longtext,
+  `created_date` date DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `news_events`
+--
+
+LOCK TABLES `news_events` WRITE;
+/*!40000 ALTER TABLE `news_events` DISABLE KEYS */;
+INSERT INTO `news_events` VALUES (1,'jjiuhuyhjiihuijhuyhujijoihiuhuyhjj','news-3.jpg','hgughjkuihunmkmj,kjjjhjk  hhuhjkjkl iiihggkjlkjuhlhuijkjihug uoioohuhioiuihkjj uoioiuiouoh as much more than a hunch these men promptly escaped.','2016-03-25'),(2,'A maximum security stockade to the Los','news-3.jpg','These days are all share them with me oh baby said inspect Californy till the one day when the lady they knew it was much more than a hunch these men promptly escaped.','2012-04-22'),(3,'A maximum security stockade to the Los','news-3.jpg','These days are all share them with me oh baby said inspect Californy till the one day when the lady they knew it was much more than a hunch these men promptly escaped.','2017-01-06'),(4,'A maximum security stockade to the Los','news-3.jpg','These days are all share them with me oh baby said inspect Californy till the one day when the lady they knew it was much more than a hunch these men promptly escaped.','2017-01-06'),(5,'A maximum security stockade to the Los','news-3.jpg','These days are all share them with me oh baby said inspect Californy till the one day when the lady they knew it was much more than a hunch these men promptly escaped.','2017-01-06'),(6,'A maximum security stockade to the Los','news-3.jpg','These days are all share them with me oh baby said inspect Californy till the one day when the lady they knew it was much more than a hunch these men promptly escaped.','2017-01-06');
+/*!40000 ALTER TABLE `news_events` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2017-11-07 17:06:19
